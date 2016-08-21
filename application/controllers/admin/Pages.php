@@ -5,6 +5,24 @@ class Pages extends CI_Controller {
 
     public function index()
     {
-        $this->load->view('admin/pages/index');
+        //Load Template
+        $this->template->load('admin', 'default', 'pages/index');
+    }
+
+    public function add()
+    {
+        //Load Template
+        $this->template->load('admin', 'default', 'pages/add');
+    }
+
+    public function edit()
+    {
+        //Load Template
+        $this->template->load('admin', 'default', 'pages/edit');
+    }
+
+    public function delete()
+    {
+
     }
 }

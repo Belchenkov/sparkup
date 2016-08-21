@@ -1,1 +1,1 @@
-PAGES ADD
+<h2 class="page-header">PAGES ADD</h2>
